@@ -53,7 +53,7 @@ export default function Pregled() {
                                 <li class="flex flex-col gap-2 items-start bg-gray-700 text-white p-4 rounded-lg mb-4">
                                     <div class="font-bold text-lg">{item.naziv}</div>
                                     <div>{item.opis}</div>
-                                    <button class="bg-white text-red-400 p-2 rounded text-sm" onClick={() => deleteProject(item.id)}>Briši</button>
+                                    <button class="bg-red-500 text-white p-2 rounded text-sm" onClick={() => deleteProject(item.id)}>Briši</button>
                                 </li>
                             )}
                         </For>
